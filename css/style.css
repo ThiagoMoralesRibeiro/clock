@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: red;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: "DS-Digital";
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.clock{
+    width: 700px;
+    height: 150px;
+    font-family: "DS-Digital";
+    font-size: 19vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(78, 77, 77);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;         
+}
