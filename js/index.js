@@ -9,11 +9,11 @@ function myClock() {
     }
     // If hours was 00:00 PM change to 12:00 PM
     if (clock.hours == 0) {
-        clock.hours = 12;
+        //clock.hours = 12;
     }
     //if hours greater than 12, I change it to PM and subtract 12 from the current time. Example: 13 - 12 = 1pm 
     if (clock.hours > 12) {
-        clock.hours -= 12;
+        //clock.hours -= 12;
         clock.session = "PM";
         
     }
